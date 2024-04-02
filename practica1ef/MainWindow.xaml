@@ -1,0 +1,16 @@
+﻿<Window x:Class="practica1ef.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:practica1ef"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Categories" HorizontalAlignment="Left" Height="82" Margin="43,53,0,0" VerticalAlignment="Top" Width="254" Click="Button_Click_1"/>
+        <Button Content="Products" HorizontalAlignment="Left" Height="82" Margin="491,53,0,0" VerticalAlignment="Top" Width="254" Click="Button_Click"/>
+        <Button Content="Warehouse" HorizontalAlignment="Left" Height="82" Margin="491,217,0,0" VerticalAlignment="Top" Width="254" Click="Button_Click_2"/>
+        <Button Content="Все таблицы" HorizontalAlignment="Left" Height="82" Margin="43,217,0,0" VerticalAlignment="Top" Width="254" Click="Button_Click_3"/>
+
+    </Grid>
+</Window>
